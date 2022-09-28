@@ -311,6 +311,8 @@ class IntroductionScreenState extends State<IntroductionScreen> {
 
   PageController get controller => _pageController;
 
+  double get currentPage => _currentPage;
+
   @override
   void initState() {
     super.initState();
