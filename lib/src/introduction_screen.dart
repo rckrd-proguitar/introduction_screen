@@ -311,7 +311,7 @@ class IntroductionScreenState extends State<IntroductionScreen> {
 
   PageController get controller => _pageController;
 
-  bool get isLastPage => getPagesLength() == _currentPage;
+  bool get isLastPage => (getPagesLength() - 1) == _currentPage;
 
   @override
   void initState() {
